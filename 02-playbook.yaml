@@ -2,6 +2,6 @@
   hosts: local 
   connection: local 
   tasks: 
-  -name: Hello world 
-  ansible.built.debug:
-  msg: "Hello Mani"
+    -name: Hello world 
+    ansible.built.debug:
+    msg: "Hello Mani"
