@@ -4,4 +4,3 @@
   tasks: 
     -name: Hello world 
     ansible.built.debug:
-    msg: "Hello Mani"
