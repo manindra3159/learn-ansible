@@ -1,0 +1,6 @@
+-name: Demo on debug 
+hosts: local 
+connections: local 
+tasks: 
+ -name: print hello world
+ debug:
