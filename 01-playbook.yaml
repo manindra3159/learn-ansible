@@ -1,6 +1,6 @@
 - name: ping demo 
   hosts: localhost 
   connection: local 
-  tasks: 
-- name: ping localhost
-  ping: 
+  tasks: # tasks == module == collections
+    - name: ping localhost
+      ping: 
