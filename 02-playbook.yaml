@@ -2,5 +2,5 @@
 hosts: local 
 connections: local 
 tasks: 
- -name: print hello world
- debug:
+  -name: print hello world
+  debug:
