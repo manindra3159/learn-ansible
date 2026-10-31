@@ -1,6 +1,6 @@
  - name: demo on variable 
    hosts: local
-   connetion: local 
+   connection: local 
    vars: 
      course: "ansible"
      trainer: "siva"
