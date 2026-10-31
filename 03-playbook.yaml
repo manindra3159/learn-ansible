@@ -3,11 +3,11 @@
    connection: local 
    tasks: 
     - name: play1 and task1 
-      deubg: 
+      debug: 
        msg: "Hello play1 and task1"
 
     - name: play2 and task2
-      deubg: 
+      debug: 
        msg: "Hello play2 and task2"
 
     
