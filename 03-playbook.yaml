@@ -1,4 +1,4 @@
-- name: play1 
+- name: PLAY-1
   hosts: local 
   connections: local 
   tasks: 
