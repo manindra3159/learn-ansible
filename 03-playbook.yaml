@@ -6,8 +6,19 @@
       debug: 
        msg: "Hello play1 and task1"
 
+    - name: play1 and task2
+      debug: 
+       msg: "Hello play1 and task2"
+
+ - name: play2 
+   hosts: local 
+   connection: local 
+   tasks: 
+    - name: play2 and task1 
+      debug: 
+       msg: "Hello play1 and task1"
+
     - name: play2 and task2
       debug: 
-       msg: "Hello play2 and task2"
-
+       msg: "Hello play1 and task2"
     
