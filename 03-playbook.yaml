@@ -1,13 +1,13 @@
-- name: PLAY-1
-  hosts: local 
-  connections: local 
-  tasks: 
-   - name: play1 and task1 
-     deubg: 
-     msg: "Hello play1 and task1"
+ - name: play1 
+   hosts: local 
+   connections: local 
+   tasks: 
+    - name: play1 and task1 
+      deubg: 
+      msg: "Hello play1 and task1"
 
-   - name: play2 and task2
-     deubg: 
-     msg: "Hello play2 and task2"
+    - name: play2 and task2
+      deubg: 
+      msg: "Hello play2 and task2"
 
     
