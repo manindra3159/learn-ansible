@@ -1,0 +1,7 @@
+- name: print facts 
+  hosts: local 
+  connection: local 
+  task: 
+   - name: print the facts 
+     debug:
+       msg: "{{ ansible_facts }}" 
