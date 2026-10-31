@@ -1,6 +1,6 @@
  - name: play1 
    hosts: local 
-   connections: local 
+   connection: local 
    tasks: 
     - name: play1 and task1 
       deubg: 
