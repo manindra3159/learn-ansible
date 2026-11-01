@@ -9,4 +9,12 @@
 
     - name: print the output 
       debug: 
-        msg: "{{ ec2_user_output }}"    
+        msg: "{{ ec2_user_output }}"
+
+    - name: get the files 
+      command: ls -la > /tmp/files.txt
+      regrister: files_output 
+
+    - name: print the file info 
+      debug: 
+        msg: "{{ files_output }}"       
