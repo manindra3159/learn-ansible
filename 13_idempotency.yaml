@@ -3,6 +3,7 @@
   connection: local 
   become: yes 
   tasks: 
-   user: 
-    name: roboshop 
-    
+   - name: create user
+     user: 
+      name: roboshop # create a user 
+      
