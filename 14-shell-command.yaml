@@ -12,7 +12,8 @@
         msg: "{{ ec2_user_output }}"
 
     - name: get the files 
-      command: ls -la > /tmp/files.txt
+      #command: ls -la > /tmp/files.txt
+      shell: ls -la > /tmp/files.txt
       regrister: files_output 
 
     - name: print the file info 
