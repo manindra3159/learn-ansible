@@ -6,4 +6,5 @@
       command: cat /etc/passwd | grep ec2-user
 
     - name: print the output 
-      debug:   
+      debug: 
+       msg: "{{ ec2_user_output }}"  
